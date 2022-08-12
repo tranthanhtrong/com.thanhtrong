@@ -82,6 +82,8 @@
 		<version.maven-deploy-plugin>2.8.2</version.maven-deploy-plugin>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<version.springboot>2.7.2</version.springboot>
 	</properties>
 
 	<dependencies>
@@ -122,6 +124,13 @@
 			<version>${version.slf4j}</version>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<version>${version.springboot}</version>
+		</dependency>
+
 
 	</dependencies>
 
