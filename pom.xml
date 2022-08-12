@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.thanhtrong</groupId>
 	<artifactId>lead</artifactId>
-	<version>0.0.7-SNAPSHOT</version>
+	<version>0.0.7</version>
 
 	<name>Tran Thanh Trong</name>
 	<description>No description</description>
@@ -28,7 +28,7 @@
 		<connection>scm:git:git://github.com/tranthanhtrong/com.thanhtrong.git</connection>
 		<developerConnection>scm:git:git@github.com:tranthanhtrong/com.thanhtrong.git</developerConnection>
 		<url>https://github.com/tranthanhtrong/com.thanhtrong</url>
-		<tag>HEAD</tag>
+		<tag>lead-0.0.7</tag>
 	</scm>
 
 	<distributionManagement>
