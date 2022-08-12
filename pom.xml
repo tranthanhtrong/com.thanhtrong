@@ -62,7 +62,7 @@
 		<version.maven-resources-plugin>3.0.1</version.maven-resources-plugin>
 		<version.maven-source-plugin>3.0.1</version.maven-source-plugin>
 		<version.maven-javadoc-plugin>2.10.4</version.maven-javadoc-plugin>
-		<version.nexus-staging-maven-plugin>1.6.7</version.nexus-staging-maven-plugin>
+		<version.nexus-staging-maven-plugin>1.6.8</version.nexus-staging-maven-plugin>
 		<version.maven-release-plugin>2.5.3</version.maven-release-plugin>
 		<version.maven-scm-provider-gitexe>1.9.5</version.maven-scm-provider-gitexe>
 		<version.jacoco-maven-plugin>0.7.7.201606060606</version.jacoco-maven-plugin>
