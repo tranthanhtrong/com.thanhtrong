@@ -1,9 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.thanhtrong</groupId>
     <artifactId>lead</artifactId>
-    <version>0.0.12-SNAPSHOT</version>
+    <version>0.0.12</version>
 
     <name>Tran Thanh Trong</name>
     <description>No description</description>
@@ -36,7 +35,7 @@
         <connection>scm:git:git://github.com/tranthanhtrong/com.thanhtrong.git</connection>
         <developerConnection>scm:git:git@github.com:tranthanhtrong/com.thanhtrong.git</developerConnection>
         <url>https://github.com/tranthanhtrong/com.thanhtrong</url>
-        <tag>HEAD</tag>
+        <tag>lead-0.0.12</tag>
     </scm>
 
     <distributionManagement>
