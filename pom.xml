@@ -109,6 +109,15 @@
                     <include>LICENSE*</include>
                 </includes>
             </resource>
+            <resource>
+                <directory>${project.basedir}/lead_app/build</directory>
+                <filtering>false</filtering>
+                <targetPath>public/</targetPath>
+            </resource>
+            <resource>
+                <directory>${project.basedir}/src/main/resources</directory>
+                <filtering>false</filtering>
+            </resource>
         </resources>
         <plugins>
             <plugin>
@@ -139,6 +148,7 @@
                     </execution>
                 </executions>
                 <configuration>
+                    <workingDirectory>lead_app</workingDirectory>
                     <nodeVersion>v18.7.0</nodeVersion>
                 </configuration>
             </plugin>
