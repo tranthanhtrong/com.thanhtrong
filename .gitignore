@@ -11,5 +11,5 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 .idea
 .DS_Store
-/lead_app/node_modules
-/lead_app/node
+/react-app/node_modules
+/react-app/node
