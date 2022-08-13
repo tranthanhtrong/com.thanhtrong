@@ -300,7 +300,11 @@
                 <artifactId>coveralls-maven-plugin</artifactId>
                 <version>${version.coveralls-maven-plugin}</version>
             </plugin>
+        </plugins>
+    </build>
 
+    <reporting>
+        <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-site-plugin</artifactId>
@@ -378,23 +382,9 @@
                         </plugin>
                     </reportPlugins>
                 </configuration>
-                <dependencies>
-                    <dependency>
-                        <groupId>lt.velykis.maven.skins</groupId>
-                        <artifactId>reflow-velocity-tools</artifactId>
-                        <version>${version.reflow-velocity-tools}</version>
-                    </dependency>
-                    <!-- Reflow skin requires Velocity >= 1.7 -->
-                    <dependency>
-                        <groupId>org.apache.velocity</groupId>
-                        <artifactId>velocity</artifactId>
-                        <version>${version.velocity}</version>
-                    </dependency>
-                </dependencies>
             </plugin>
         </plugins>
-    </build>
-
+    </reporting>
     <profiles>
         <!-- GPG Signature on release -->
         <profile>
